@@ -1,0 +1,17 @@
+Polygon hình dung ra một thế giới trong đó các blockchains riêng biệt có thể tự do và dễ dàng trao đổi giá trị và thông tin - 
+       loại bỏ những ngăn cách về công nghệ và hệ tư tưởng ngăn cách hầu hết các blockchains ngày nay.
+Các blockchain được khởi chạy theo cách này được định cấu hình để hưởng lợi từ sidechain bằng chứng cổ phần (PoS) Matic, 
+       sử dụng mạng lưới các trình xác thực để tăng tốc đáng kể các giao dịch và cắt giảm phí xuống mức tối thiểu - trong khi hoàn thiện mọi thứ trên chuỗi chính Ethereum .  
+Nó là duy nhất trên thị trường, ở chỗ đó là giải pháp khả năng mở rộng duy nhất hỗ trợ Máy ảo Ethereum (EVM) và cho phép các chuỗi được kết nối duy trì bảo mật tự chủ,
+       đồng thời đảm bảo khả năng tương tác giữa cả một chuỗi chính Ethereum và nhau. 
+Thứ hai là Ethereum cần đạt được sự đồng thuận toàn cầu trước khi các giao dịch được hoàn thiện. Quá trình này có thể mất khá nhiều thời gian do sự chậm trễ lan truyền 
+       trên mạng bằng chứng công việc (PoW) của nó.               
+
+
+Smart conctrat of polygon encodesystem 
+1: Quản lý cổ phần cho lớp Proof-of-Stake
+2: Quản lý ủy quyền bao gồm chia sẻ trình xác thực
+3: Các điểm kiểm tra / ảnh chụp nhanh trạng thái sidechain
+
+
+WhatHeimdall: 
