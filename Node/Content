@@ -1,0 +1,52 @@
+Node: + Chính là một điểm mà ở đó tin nhắn sẽ được tạo ra, nhận hoặc truyền đi.
+      + Mạng lưới này chứa những nút phân bổ hợp lý, giúp thực hiện các nhiệm vụ khác nhau. 
+        Mỗi nút đều là một thiết bị điện tử nào đó đang hoạt động xung quanh ta. 
+        Ví dụ như máy tính, TV, máy in hay điện thoại… Chỉ cần là nó được kết nối với mạng internet và có thêm địa chỉ 
+        IP thì sẽ tạo ra một nút.
+
+Function: Tất cả mọi node trên một chuỗi khối đều được kết nối với nhau. Và chúng liên tục trao đổi các dữ liệu, 
+          thông tin chuỗi khối mới nhất. Nhằm cho toàn bộ các node luôn nhanh chóng cập nhật. Họ lưu trữ, bảo quản
+          dữ liệu và truyền tải blockchain. Vậy nên theo mặt lý thuyết blockchain sẽ được tồn tại trên node. Một node
+          được trang bị đầy đủ về cơ bản là thiết bị có chứa bản sao toàn bộ lịch sử giao dịch của chính chuỗi khối.  
+
+Role: Vai trò của một nút là giúp hỗ trợ mạng lưới bằng cách duy trì bản sao của blockchain. Trong nhiều trường hợp khác,
+      node là gì còn sử dụng để xử lý những giao dịch.          
+
+Type Node in blockchain 
+    Root node – là nút cao nhất trong dãy cây nhị phân.
+    Parent node – là nút mà có nhiều nút mở rộng từ nó.
+    Child node – Nút được mở rộng từ một nút khác.
+    Leaf node – là nút không có thêm nút con.
+    Sibling nodes – các nút kết nối cùng với nút lớn (parent node).
+    Tree – Cấu trúc dữ liệu được bắt đầu từ phần nút gốc (rood node).
+    Forest – Một tập hợp bao gồm những cây nút.
+    Degree – là thứ bậc nút con của node.
+    Edge – sự liên kết chặt chẽ giữa các nút.
+
+Type node bitcoin 
+    1: Full Node
+        Một full node của Bitcoin sẵn sàng được thiết lập thông qua triển khai những phần mềm khai thác khác nhau. 
+        Tuy nhiên được sử dụng phổ biến và nhiều nhất vẫn là Bitcoin Core. Đây là các yêu cầu tối thiểu để chạy được một full node Bitcoin Code. Bao gồm:
+        +Máy tính bàn hoặc laptop khi được cài phiên bản mới nhất của phần mềm Windows, Linux hoặc Mac OS X.
+        +Ít nhất có phần ổ cứng 200GB trống.
+        Ram tốt thiểu là 2GB.
+        +Kết nối internet bằng tốc độ cao và tốc độ để tải lên tối thiểu là 50kB/s.
+        +Máy tính nên chạy ít nhất khoảng 6 giờ mỗi ngày. Thậm chí là tốt hơn nếu như bạn cho chạy liên tục 24/24 giờ.
+    2: Listening Node
+        Listening node hoặc supernode là full node được kết nối công khai.
+          Nó cung cấp và giao tiếp thông tin cho bất cứ node nào khi đã quyết định thiết lập kết nối với chính nó. 
+    3: Mint Node  
+        Để có thể đào được Bitcoin, thợ đào cần phải đầu tư vào chương trình đào và phần cứng chuyên biệt. 
+          Những chương trình đào hay còn gọi là phần mềm này, sẽ không trực tiếp liên quan đến Bitcoin Core 
+          và nó chạy song song để đào những khối Bitcoin. Một thợ đào có thể tự lựa chọn làm việc một mình (solo miner)
+          hoặc là theo việc theo nhóm (pool miner).    
+    4: Lightweight Client
+        Khi khách hàng biết đến với cái tên gọi Simplified Payment Verification client hoặc lightweight client, thì nó
+          được hiểu là máy tận dụng mạng Bitcoin
+
+Các Node lưu trữ
+    Một tập con của node là gì luôn đầy đủ cũng phải chấp nhận những kết nối đến và tải khối cũ lên trang khác trên mạng.
+    Điều này sẽ xảy ra nếu như phần mềm được chạy với giá trị là listen = 1 mặc định. Nó trái ngược hoàn toàn với một
+    số quan niệm sai lầm, là nút lưu trữ không cần thiết để được trở thành một nút đầy đủ.
+
+      
