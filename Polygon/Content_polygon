@@ -14,4 +14,17 @@ Smart conctrat of polygon encodesystem
 3: Các điểm kiểm tra / ảnh chụp nhanh trạng thái sidechain
 
 
-WhatHeimdall: 
+WhatHeimdall: Heimdall là nút xác thực PoS hoạt động đồng thời với các hợp đồng Staking trên Ethereum để kích hoạt cơ chế PoS trên Polygon.
+     1: Xác thực tất cả các khối kể từ điểm kiểm tra cuối cùng
+     2: Tạo một cây merkle của khối băm
+     3: Xuất bản root merkle vào chuỗi chính
+
+
+Các trạm kiểm soát quan trọng vì hai lý do:
+     1: Cung cấp tính cuối cùng trên Chuỗi gốc
+     2: Cung cấp bằng chứng về việc đốt tài sản
+
+Security Models     
+     1: Proof of Stake security
+     2: Plasma security
+     3: Hybrid (Plasma + PoS)
